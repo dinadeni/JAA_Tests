@@ -6,8 +6,4 @@ public class MainClass
         return 14;
     }
 
-    @Test
-    public void myFirstTest() {
-        System.out.println(this.getLocalNumber());
-    }
 }

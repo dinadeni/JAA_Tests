@@ -1,6 +1,12 @@
 import org.junit.Test;
 
 public class MainTestClass extends MainClass {
+    
+    @Test
+    public void myFirstTest() {
+        System.out.println(this.getLocalNumber());
+    }
+
     @Test
     public void testGetLocalNumber() {
         int a = this.getLocalNumber();
