@@ -6,9 +6,9 @@ public class MainTestClass extends MainClass {
         int a = this.getLocalNumber();
 
         if (a != 14) {
-            System.out.println("Wrong number" + a);
+            System.out.println("Wrong number:" + a);
         } else {
-            System.out.println("Right number" + a);
+            System.out.println("Right number:" + a);
         }
     }
 }
