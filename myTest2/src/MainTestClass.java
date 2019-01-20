@@ -3,10 +3,12 @@ import org.junit.Test;
 public class MainTestClass extends MainClass {
     @Test
     public void testGetLocalNumber() {
-        if (this.number != 14) {
-            System.out.println("Wrong number" + this.number);
+        int a = this.getLocalNumber();
+
+        if (a != 14) {
+            System.out.println("Wrong number" + a);
         } else {
-            System.out.println("Right number" + this.number);
+            System.out.println("Right number" + a);
         }
     }
 }

@@ -2,9 +2,12 @@ import org.junit.Test;
 
 public class MainClass
 {
-    int number = 14;
+    public int getLocalNumber() {
+        return 14;
+    }
+
     @Test
-    public void getLocalNumber() {
-        System.out.println(this.number);
+    public void myFirstTest() {
+        System.out.println(this.getLocalNumber());
     }
 }
